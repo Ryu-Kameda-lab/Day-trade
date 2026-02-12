@@ -1,0 +1,248 @@
+2026-02-11 23:12:34,101 [test] INFO: Logger test OK
+2026-02-11 23:13:18,314 [MEXCService] INFO: MEXCService initialized [TESTNET] base_url=https://api.mexc.com
+2026-02-12 00:17:01,305 [MEXCService] INFO: MEXCService initialized [TESTNET] base_url=https://api.mexc.com
+2026-02-12 00:17:01,307 [app] INFO: 
+    ======================================
+      Project Parliament
+      http://localhost:5000
+    ======================================
+    
+2026-02-12 00:17:30,798 [MEXCService] INFO: MEXCService initialized [TESTNET] base_url=https://api.mexc.com
+2026-02-12 00:17:30,799 [app] INFO: 
+    ======================================
+      Project Parliament
+      http://localhost:5000
+    ======================================
+    
+2026-02-12 00:19:57,953 [MEXCService] INFO: MEXCService initialized [TESTNET] base_url=https://api.mexc.com
+2026-02-12 00:19:57,955 [app] INFO: 
+    ======================================
+      Project Parliament
+      http://localhost:5000
+    ======================================
+    
+2026-02-12 00:20:01,586 [MEXCService] INFO: MEXCService initialized [TESTNET] base_url=https://api.mexc.com
+2026-02-12 00:20:01,587 [app] INFO: 
+    ======================================
+      Project Parliament
+      http://localhost:5000
+    ======================================
+    
+2026-02-12 00:20:07,767 [app] INFO: クライアント接続: 2y8OY7GNQ2pvfmEpAAAB
+2026-02-12 00:21:17,882 [app] INFO: 全AI起動リクエスト受信
+2026-02-12 00:43:53,032 [app] INFO: クライアント切断: 2y8OY7GNQ2pvfmEpAAAB
+2026-02-12 00:44:31,827 [MEXCService] INFO: MEXCService initialized [TESTNET] base_url=https://api.mexc.com
+2026-02-12 00:44:31,828 [app] INFO: 
+    ======================================
+      Project Parliament
+      http://localhost:5000
+    ======================================
+    
+2026-02-12 00:44:34,119 [MEXCService] INFO: MEXCService initialized [TESTNET] base_url=https://api.mexc.com
+2026-02-12 00:44:34,121 [app] INFO: 
+    ======================================
+      Project Parliament
+      http://localhost:5000
+    ======================================
+    
+2026-02-12 00:44:38,615 [app] INFO: クライアント接続: tqFmcBKZ8YykI76pAAAB
+2026-02-12 00:44:45,026 [app] INFO: 全AI起動リクエスト受信
+2026-02-12 00:55:03,898 [MEXCService] INFO: MEXCService initialized [TESTNET] base_url=https://api.mexc.com
+2026-02-12 00:55:03,899 [app] INFO: 
+    ======================================
+      Project Parliament
+      http://localhost:5000
+    ======================================
+    
+2026-02-12 00:55:06,229 [MEXCService] INFO: MEXCService initialized [TESTNET] base_url=https://api.mexc.com
+2026-02-12 00:55:06,231 [app] INFO: 
+    ======================================
+      Project Parliament
+      http://localhost:5000
+    ======================================
+    
+2026-02-12 00:55:12,676 [app] INFO: クライアント接続: OLbbvYsy5ndQFtPQAAAB
+2026-02-12 00:55:15,667 [app] INFO: 全AI起動リクエスト受信
+2026-02-12 01:07:00,733 [app] INFO: クライアント切断: OLbbvYsy5ndQFtPQAAAB
+2026-02-12 01:19:42,268 [MEXCService] INFO: MEXCService initialized [TESTNET] base_url=https://api.mexc.com
+2026-02-12 01:19:42,269 [app] INFO: 
+    ======================================
+      Project Parliament
+      http://localhost:5000
+    ======================================
+    
+2026-02-12 01:19:44,613 [MEXCService] INFO: MEXCService initialized [TESTNET] base_url=https://api.mexc.com
+2026-02-12 01:19:44,615 [app] INFO: 
+    ======================================
+      Project Parliament
+      http://localhost:5000
+    ======================================
+    
+2026-02-12 01:19:47,283 [app] INFO: クライアント接続: 1eFmqdeBrmzf4Wc8AAAB
+2026-02-12 01:19:54,315 [app] INFO: 全AI起動リクエスト受信
+2026-02-12 01:20:23,199 [app] INFO: 議論開始リクエスト受信
+2026-02-12 01:20:23,200 [MEXCService] DEBUG: GET /api/v3/ticker/24hr params={} signed=False
+2026-02-12 01:20:23,512 [MEXCService] DEBUG: Response [200]: [{"symbol":"METALUSDT","priceChange":"0.00337","priceChangePercent":"0.0276","prevClosePrice":"0.12197","lastPrice":"0.12534","bidPrice":"0.12504","bidQty":"10.77","askPrice":"0.12533","askQty":"80.39","openPrice":"0.12197","highPrice":"0.12568","lowPrice":"0.11926","volume":"24754.66","quoteVolume":"3052.79854","openTime":1770826743083,"closeTime":1770826823176,"count":null},{"symbol":"RARIUSDT","priceChange":"0.0087","priceChangePercent":"0.0474","prevClosePrice":"0.1833","lastPrice":"0.192","
+2026-02-12 01:20:23,522 [MEXCService] INFO: Market overview: 758 USDT pairs analyzed
+2026-02-12 01:28:37,389 [app] INFO: 議論終了リクエスト受信
+2026-02-12 01:35:14,040 [MEXCService] INFO: MEXCService initialized [TESTNET] base_url=https://api.mexc.com
+2026-02-12 01:35:14,041 [app] INFO: 
+    ======================================
+      Project Parliament
+      http://localhost:5000
+    ======================================
+    
+2026-02-12 01:35:20,238 [MEXCService] INFO: MEXCService initialized [TESTNET] base_url=https://api.mexc.com
+2026-02-12 01:35:20,239 [app] INFO: 
+    ======================================
+      Project Parliament
+      http://localhost:5000
+    ======================================
+    
+2026-02-12 01:35:22,615 [MEXCService] INFO: MEXCService initialized [TESTNET] base_url=https://api.mexc.com
+2026-02-12 01:35:22,616 [app] INFO: 
+    ======================================
+      Project Parliament
+      http://localhost:5000
+    ======================================
+    
+2026-02-12 01:35:26,157 [app] INFO: クライアント接続: NCrT2ha19AjkLPsKAAAB
+2026-02-12 01:35:33,657 [app] INFO: 全AI起動リクエスト受信
+2026-02-12 01:35:58,147 [app] INFO: クライアント切断: NCrT2ha19AjkLPsKAAAB
+2026-02-12 10:47:48,697 [MEXCService] INFO: MEXCService initialized [TESTNET] base_url=https://api.mexc.com
+2026-02-12 10:47:48,699 [app] INFO: 
+    ======================================
+      Project Parliament
+      http://localhost:5000
+    ======================================
+    
+2026-02-12 10:47:52,585 [MEXCService] INFO: MEXCService initialized [TESTNET] base_url=https://api.mexc.com
+2026-02-12 10:47:52,587 [app] INFO: 
+    ======================================
+      Project Parliament
+      http://localhost:5000
+    ======================================
+    
+2026-02-12 10:47:56,052 [app] INFO: クライアント接続: KWmb1WA9tlkV_7NhAAAB
+2026-02-12 10:47:58,268 [app] INFO: 全AI起動リクエスト受信
+2026-02-12 10:50:48,566 [MEXCService] INFO: MEXCService initialized [TESTNET] base_url=https://api.mexc.com
+2026-02-12 10:50:48,567 [app] INFO: 
+    ======================================
+      Project Parliament
+      http://localhost:5000
+    ======================================
+    
+2026-02-12 10:50:50,162 [app] INFO: クライアント接続: 3eRmlzT-ZpNpvxFAAAAB
+2026-02-12 10:51:18,678 [MEXCService] INFO: MEXCService initialized [TESTNET] base_url=https://api.mexc.com
+2026-02-12 10:51:18,680 [app] INFO: 
+    ======================================
+      Project Parliament
+      http://localhost:5000
+    ======================================
+    
+2026-02-12 10:51:20,973 [MEXCService] INFO: MEXCService initialized [TESTNET] base_url=https://api.mexc.com
+2026-02-12 10:51:20,974 [app] INFO: 
+    ======================================
+      Project Parliament
+      http://localhost:5000
+    ======================================
+    
+2026-02-12 10:51:29,106 [app] INFO: クライアント接続: zUP5_6DwApJ6yC7MAAAB
+2026-02-12 10:51:32,957 [app] INFO: 全AI起動リクエスト受信
+2026-02-12 10:57:32,494 [MEXCService] INFO: MEXCService initialized [TESTNET] base_url=https://api.mexc.com
+2026-02-12 10:57:32,496 [app] INFO: 
+    ======================================
+      Project Parliament
+      http://localhost:5000
+    ======================================
+    
+2026-02-12 10:57:34,805 [MEXCService] INFO: MEXCService initialized [TESTNET] base_url=https://api.mexc.com
+2026-02-12 10:57:34,807 [app] INFO: 
+    ======================================
+      Project Parliament
+      http://localhost:5000
+    ======================================
+    
+2026-02-12 10:57:37,176 [app] INFO: クライアント接続: _Ky7eDnHPrVdsEIKAAAB
+2026-02-12 10:57:39,753 [app] INFO: 全AI起動リクエスト受信
+2026-02-12 11:00:04,613 [MEXCService] INFO: MEXCService initialized [TESTNET] base_url=https://api.mexc.com
+2026-02-12 11:00:04,614 [app] INFO: 
+    ======================================
+      Project Parliament
+      http://localhost:5000
+    ======================================
+    
+2026-02-12 11:00:06,180 [app] INFO: クライアント接続: 1R1fuLYRKE9W7BQYAAAB
+2026-02-12 11:00:13,881 [app] INFO: クライアント切断: 1R1fuLYRKE9W7BQYAAAB
+2026-02-12 11:00:21,001 [MEXCService] INFO: MEXCService initialized [TESTNET] base_url=https://api.mexc.com
+2026-02-12 11:00:21,003 [app] INFO: 
+    ======================================
+      Project Parliament
+      http://localhost:5000
+    ======================================
+    
+2026-02-12 11:00:23,268 [MEXCService] INFO: MEXCService initialized [TESTNET] base_url=https://api.mexc.com
+2026-02-12 11:00:23,270 [app] INFO: 
+    ======================================
+      Project Parliament
+      http://localhost:5000
+    ======================================
+    
+2026-02-12 11:00:35,328 [app] INFO: クライアント接続: 2RzaHdEdS1_95hNBAAAB
+2026-02-12 11:00:41,722 [app] INFO: 全AI起動リクエスト受信
+2026-02-12 11:03:10,341 [MEXCService] INFO: MEXCService initialized [TESTNET] base_url=https://api.mexc.com
+2026-02-12 11:03:10,342 [app] INFO: 
+    ======================================
+      Project Parliament
+      http://localhost:5000
+    ======================================
+    
+2026-02-12 11:03:12,617 [MEXCService] INFO: MEXCService initialized [TESTNET] base_url=https://api.mexc.com
+2026-02-12 11:03:12,619 [app] INFO: 
+    ======================================
+      Project Parliament
+      http://localhost:5000
+    ======================================
+    
+2026-02-12 11:03:14,846 [app] INFO: クライアント接続: Ih7zd360PUy5Due9AAAB
+2026-02-12 11:03:29,653 [MEXCService] INFO: MEXCService initialized [TESTNET] base_url=https://api.mexc.com
+2026-02-12 11:03:29,654 [app] INFO: 
+    ======================================
+      Project Parliament
+      http://localhost:5000
+    ======================================
+    
+2026-02-12 11:03:31,956 [MEXCService] INFO: MEXCService initialized [TESTNET] base_url=https://api.mexc.com
+2026-02-12 11:03:31,957 [app] INFO: 
+    ======================================
+      Project Parliament
+      http://localhost:5000
+    ======================================
+    
+2026-02-12 11:03:33,875 [app] INFO: クライアント接続: xrtZxmYqqzYjKGT0AAAB
+2026-02-12 11:03:36,506 [app] INFO: 全AI起動リクエスト受信
+2026-02-12 11:03:52,087 [app] INFO: 議論開始リクエスト受信
+2026-02-12 11:03:52,088 [MEXCService] DEBUG: GET /api/v3/ticker/24hr params={} signed=False
+2026-02-12 11:03:52,395 [MEXCService] DEBUG: Response [200]: [{"symbol":"METALUSDT","priceChange":"0.00453","priceChangePercent":"0.0373","prevClosePrice":"0.12125","lastPrice":"0.12578","bidPrice":"0.12503","bidQty":"795.03","askPrice":"0.12593","askQty":"10.8","openPrice":"0.12125","highPrice":"0.1279","lowPrice":"0.12125","volume":"51125.23","quoteVolume":"6424.1734","openTime":1770861783088,"closeTime":1770861832254,"count":null},{"symbol":"RARIUSDT","priceChange":"-0.0117","priceChangePercent":"-0.0597","prevClosePrice":"0.1957","lastPrice":"0.184","
+2026-02-12 11:03:52,405 [MEXCService] INFO: Market overview: 783 USDT pairs analyzed
+2026-02-12 11:24:51,434 [MEXCService] INFO: MEXCService initialized [TESTNET] base_url=https://api.mexc.com
+2026-02-12 11:24:51,436 [app] INFO: 
+    ======================================
+      Project Parliament
+      http://localhost:5000
+    ======================================
+    
+2026-02-12 11:24:53,927 [MEXCService] INFO: MEXCService initialized [TESTNET] base_url=https://api.mexc.com
+2026-02-12 11:24:53,929 [app] INFO: 
+    ======================================
+      Project Parliament
+      http://localhost:5000
+    ======================================
+    
+2026-02-12 11:25:01,240 [app] INFO: クライアント接続: CWaoGkauP99SXwZPAAAB
+2026-02-12 11:25:02,727 [app] INFO: 全AI起動リクエスト受信
+2026-02-12 11:25:50,997 [app] INFO: 議論開始リクエスト受信
+2026-02-12 11:25:50,997 [MEXCService] DEBUG: GET /api/v3/ticker/24hr params={} signed=False
+2026-02-12 11:25:51,205 [MEXCService] DEBUG: Response [200]: [{"symbol":"METALUSDT","priceChange":"0.0023","priceChangePercent":"0.0186","prevClosePrice":"0.12348","lastPrice":"0.12578","bidPrice":"0.12503","bidQty":"795.03","askPrice":"0.12593","askQty":"10.8","openPrice":"0.12348","highPrice":"0.1279","lowPrice":"0.12132","volume":"48624.28","quoteVolume":"6117.98907","openTime":1770863103087,"closeTime":1770863151053,"count":null},{"symbol":"RARIUSDT","priceChange":"-0.0116","priceChangePercent":"-0.0593","prevClosePrice":"0.1955","lastPrice":"0.1839",
+2026-02-12 11:25:51,218 [MEXCService] INFO: Market overview: 1658 USDT pairs, returning top 50
+2026-02-12 11:35:17,368 [app] INFO: 議論終了リクエスト受信

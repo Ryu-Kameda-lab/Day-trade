@@ -1,0 +1,22 @@
+# Project Parliament - Dependencies
+# Phase 1: Core
+flask==3.1.0
+flask-socketio==5.5.1
+python-dotenv==1.1.0
+gevent>=24.2.1
+gevent-websocket>=0.10.1
+
+# Phase 2: AI APIs
+anthropic==0.43.0
+openai==1.59.2
+google-generativeai==0.8.0
+
+# Phase 5: MEXC Exchange
+requests==2.32.3
+
+# Phase A: Technical Analysis
+pandas>=2.1.0
+ta>=0.11.0
+
+# Utilities
+python-dateutil==2.9.0
