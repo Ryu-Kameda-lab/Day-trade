@@ -58,6 +58,7 @@ trade_executor = TradeExecutor(
     mexc_service,
     emit_callback=socketio_emit,
     analyzer=analyzer,
+    config=Config,
 )
 
 # トレードレポーター
@@ -191,6 +192,9 @@ def handle_activate_all():
     """全AIを起動する（実APIテスト実行）"""
     logger.info("全AI起動リクエスト受信")
 
+    # 再実行時の状態ズレを避けるため、一度オンライン状態をクリアする
+    app_state["online_ais"].clear()
+
     for ai_id, profile in AI_PROFILES.items():
         # 接続中ステータスを送信
         emit("ai_status_change", {
@@ -278,7 +282,7 @@ def handle_start_discussion(data=None):
     # スクリーニング実行（テクニカル分析付き）
     try:
         screening_results = screener.screen_market(
-            top_n=10,
+            top_n=Config.SCREENING_TOP_N,
             emit_callback=socketio_emit,
         )
         emit("new_message", {
@@ -375,9 +379,13 @@ def handle_cast_vote(data):
         emit("error", {"message": "Proposal not found"})
         return
 
-    voter_id = data["voter_id"]
-    vote = data["vote"]
+    voter_id = data.get("voter_id")
+    vote = data.get("vote")
     reason = data.get("reason", "")
+
+    if not voter_id or vote not in ("support", "oppose"):
+        emit("error", {"message": "Invalid vote payload"})
+        return
 
     success = voting_manager.cast_vote(proposal, voter_id, vote, reason)
     if not success:

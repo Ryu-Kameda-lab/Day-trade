@@ -1,7 +1,5 @@
 """投票ロジック - VotingManager"""
 from datetime import datetime
-from typing import Optional
-
 from models.proposal import Proposal, Vote
 
 
@@ -94,7 +92,12 @@ class VotingManager:
         pending_count = 0
         votes_detail = {}
 
-        for voter_id in self.voters:
+        eligible_voters = [
+            voter_id for voter_id in self.voters
+            if voter_id != proposal.submitted_by
+        ]
+
+        for voter_id in eligible_voters:
             vote_obj = proposal.votes.get(voter_id)
             if vote_obj is not None:
                 voted += 1
@@ -108,7 +111,7 @@ class VotingManager:
                 votes_detail[voter_id] = None
 
         return {
-            "total_voters": len(self.voters),
+            "total_voters": len(eligible_voters),
             "voted": voted,
             "support": support,
             "oppose": oppose,
