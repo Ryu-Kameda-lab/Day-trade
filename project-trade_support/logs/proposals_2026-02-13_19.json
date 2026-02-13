@@ -1,0 +1,643 @@
+[
+  {
+    "timestamp": "2026-02-13T19:19:24.303854",
+    "symbol": "SILVER/USDT:USDT",
+    "price": 78.4,
+    "screening_score": 81.0,
+    "direction": "short",
+    "confidence": "medium",
+    "analysis": {
+      "symbol": "SILVER/USDT:USDT",
+      "timeframe": "15m",
+      "indicators": {
+        "rsi": {
+          "value": 60.23,
+          "status": "neutral"
+        },
+        "ema": {
+          "ema_9": 78.485412,
+          "ema_21": 78.0752,
+          "ema_55": 77.787095,
+          "ema_200": 80.148773
+        },
+        "ema_cross": "none",
+        "macd": {
+          "macd": 0.455997,
+          "signal": 0.459945,
+          "histogram": -0.003948
+        },
+        "bollinger": {
+          "upper": 79.807124,
+          "middle": 77.909,
+          "lower": 76.010876,
+          "width": 4.8727,
+          "position": "within"
+        },
+        "volume": {
+          "current": 332763.0,
+          "average": 2847306.6,
+          "ratio": 0.12,
+          "trend": "low"
+        },
+        "atr": 0.569776,
+        "adx": 22.1,
+        "fibonacci": {
+          "0.236": 83.46844,
+          "0.382": 81.68578,
+          "0.5": 80.245,
+          "0.618": 78.80422,
+          "high": 86.35,
+          "low": 74.14
+        },
+        "current_price": 78.64
+      },
+      "multi_timeframe": {
+        "4h": {
+          "rsi": {
+            "value": 44.2,
+            "status": "neutral"
+          },
+          "ema": {
+            "ema_9": 79.2822,
+            "ema_21": 80.423653,
+            "ema_55": 81.938344,
+            "ema_200": 86.331049
+          },
+          "ema_cross": "none",
+          "macd": {
+            "macd": -0.789716,
+            "signal": -0.074442,
+            "histogram": -0.715274
+          },
+          "bollinger": {
+            "upper": 87.07476,
+            "middle": 81.4435,
+            "lower": 75.81224,
+            "width": 13.8286,
+            "position": "within"
+          },
+          "volume": {
+            "current": 30255153.0,
+            "average": 48815675.35,
+            "ratio": 0.62,
+            "trend": "normal"
+          },
+          "atr": 2.448129,
+          "adx": 20.48,
+          "fibonacci": {
+            "0.236": 108.24608,
+            "0.382": 99.89196,
+            "0.5": 93.14,
+            "0.618": 86.38804,
+            "high": 121.75,
+            "low": 64.53
+          },
+          "current_price": 78.64
+        },
+        "1h": {
+          "rsi": {
+            "value": 50.25,
+            "status": "neutral"
+          },
+          "ema": {
+            "ema_9": 77.820615,
+            "ema_21": 78.181577,
+            "ema_55": 79.898083,
+            "ema_200": 79.776608
+          },
+          "ema_cross": "none",
+          "macd": {
+            "macd": -0.767143,
+            "signal": -1.260906,
+            "histogram": 0.493764
+          },
+          "bollinger": {
+            "upper": 80.355748,
+            "middle": 76.9805,
+            "lower": 73.605252,
+            "width": 8.7691,
+            "position": "within"
+          },
+          "volume": {
+            "current": 3734057.0,
+            "average": 17890725.85,
+            "ratio": 0.21,
+            "trend": "low"
+          },
+          "atr": 1.322208,
+          "adx": 40.56,
+          "fibonacci": {
+            "0.236": 81.20048,
+            "0.382": 78.01476,
+            "0.5": 75.44,
+            "0.618": 72.86524,
+            "high": 86.35,
+            "low": 64.53
+          },
+          "current_price": 78.64
+        },
+        "15m": {
+          "rsi": {
+            "value": 60.23,
+            "status": "neutral"
+          },
+          "ema": {
+            "ema_9": 78.485412,
+            "ema_21": 78.0752,
+            "ema_55": 77.787095,
+            "ema_200": 80.148773
+          },
+          "ema_cross": "none",
+          "macd": {
+            "macd": 0.455997,
+            "signal": 0.459945,
+            "histogram": -0.003948
+          },
+          "bollinger": {
+            "upper": 79.807124,
+            "middle": 77.909,
+            "lower": 76.010876,
+            "width": 4.8727,
+            "position": "within"
+          },
+          "volume": {
+            "current": 332763.0,
+            "average": 2847306.6,
+            "ratio": 0.12,
+            "trend": "low"
+          },
+          "atr": 0.569776,
+          "adx": 22.1,
+          "fibonacci": {
+            "0.236": 83.46844,
+            "0.382": 81.68578,
+            "0.5": 80.245,
+            "0.618": 78.80422,
+            "high": 86.35,
+            "low": 74.14
+          },
+          "current_price": 78.64
+        },
+        "5m": {
+          "rsi": {
+            "value": 53.69,
+            "status": "neutral"
+          },
+          "ema": {
+            "ema_9": 78.534069,
+            "ema_21": 78.555504,
+            "ema_55": 78.140875,
+            "ema_200": 77.2688
+          },
+          "ema_cross": "none",
+          "macd": {
+            "macd": 0.047523,
+            "signal": 0.125354,
+            "histogram": -0.077831
+          },
+          "bollinger": {
+            "upper": 79.215297,
+            "middle": 78.718,
+            "lower": 78.220703,
+            "width": 1.2635,
+            "position": "within"
+          },
+          "volume": {
+            "current": 332763.0,
+            "average": 1019546.25,
+            "ratio": 0.33,
+            "trend": "low"
+          },
+          "atr": 0.302445,
+          "adx": 22.77,
+          "fibonacci": {
+            "0.236": 78.14336,
+            "0.382": 77.37832,
+            "0.5": 76.76,
+            "0.618": 76.14168,
+            "high": 79.38,
+            "low": 74.14
+          },
+          "current_price": 78.64
+        }
+      },
+      "ai_analysis": {
+        "judgment": "bearish",
+        "confidence": "medium",
+        "summary": "4hはEMAとMACDが下向きで中期は弱い。一方、1hはMACD改善で戻り局面。15mは200EMA(80.15)下で0.618(78.80)が抵抗。出来高乏しく戻り売り優勢だが確度は中。本分析は参考情報で投資助言ではありません。",
+        "key_levels": {
+          "support": [
+            78.1,
+            77.26,
+            76.76,
+            76.01,
+            75.44
+          ],
+          "resistance": [
+            78.8,
+            79.28,
+            79.78,
+            80.15,
+            81.44
+          ]
+        },
+        "signals": [
+          {
+            "indicator": "4h EMA",
+            "signal": "短期<中期<長期の下向き配列で下落トレンド優位",
+            "weight": "strong"
+          },
+          {
+            "indicator": "4h MACD",
+            "signal": "マイナス圏でヒストグラム拡大、下押し圧力継続",
+            "weight": "strong"
+          },
+          {
+            "indicator": "1h MACD",
+            "signal": "シグナル上抜け・陽転で戻り発生中",
+            "weight": "moderate"
+          },
+          {
+            "indicator": "15m/価格 vs EMA200",
+            "signal": "200EMA(80.15)下で上値重い",
+            "weight": "moderate"
+          },
+          {
+            "indicator": "出来高",
+            "signal": "1h/15mで低水準の戻り、信頼性低下",
+            "weight": "moderate"
+          },
+          {
+            "indicator": "Fibonacci",
+            "signal": "0.618(78.80)直上に抵抗が控える",
+            "weight": "moderate"
+          },
+          {
+            "indicator": "RSI(複数足)",
+            "signal": "40〜60台で方向感乏しい",
+            "weight": "weak"
+          },
+          {
+            "indicator": "5m ボリンジャー",
+            "signal": "帯縮小でブレイク前の静けさ",
+            "weight": "weak"
+          }
+        ],
+        "risk_factors": [
+          "低出来高によるダマシ・スリッページ拡大",
+          "5mボリンジャー収縮後の急変動リスク",
+          "4h下落トレンド継続で戻り高値失敗の可能性",
+          "78.80〜80.15の抵抗帯での急反落・ストップ狩り",
+          "突発ニュースや流動性低下によるギャップ変動",
+          "短期ADX低下に伴うレンジ化とノイズ増加"
+        ]
+      },
+      "current_price": 78.61
+    },
+    "main_proposal": {
+      "direction": "short",
+      "entry_price": {
+        "ideal": 79.05,
+        "range_low": 78.8,
+        "range_high": 79.28
+      },
+      "take_profit": {
+        "tp1": 78.1,
+        "tp2": 77.26
+      },
+      "stop_loss": {
+        "price": 79.86,
+        "reason": "79.28/79.78の抵抗帯を明確上抜けで戻り売り無効化。直近戻り高値更新で短期の下降波形が崩れるため。"
+      },
+      "risk_reward_ratio": 2.21,
+      "confidence": "medium",
+      "scenario_invalidation": "1hで79.78上に定着、または80.15(EMA200)を出来高を伴い突破しMACD陽転拡大が続く場合は下降シナリオ無効。",
+      "reasoning": "4hはEMA/MACDが下向きで戻り売り優位。1hの戻りは低出来高、15mで0.618(78.80)～R帯(79.28/79.78)が重い。抵抗帯への戻りで売り、78.10→77.26狙い。SLは79.78上でトレンド否定。TP1で一部利確・建値移動。これはテクニカル参考情報で投資助言ではありません。"
+    },
+    "second_opinion": null,
+    "so_executed": false,
+    "gemini_review": null
+  },
+  {
+    "timestamp": "2026-02-13T19:21:40.935969",
+    "symbol": "BTC/USDT:USDT",
+    "price": 66873.3,
+    "screening_score": 79.0,
+    "direction": "long",
+    "confidence": "medium",
+    "analysis": {
+      "symbol": "BTC/USDT:USDT",
+      "timeframe": "15m",
+      "indicators": {
+        "rsi": {
+          "value": 66.05,
+          "status": "neutral"
+        },
+        "ema": {
+          "ema_9": 66748.854793,
+          "ema_21": 66566.594036,
+          "ema_55": 66453.7903,
+          "ema_200": 66721.395207
+        },
+        "ema_cross": "none",
+        "macd": {
+          "macd": 159.782547,
+          "signal": 95.420192,
+          "histogram": 64.362356
+        },
+        "bollinger": {
+          "upper": 67054.832491,
+          "middle": 66467.53,
+          "lower": 65880.227509,
+          "width": 1.7672,
+          "position": "within"
+        },
+        "volume": {
+          "current": 1380600.0,
+          "average": 4167931.8,
+          "ratio": 0.33,
+          "trend": "low"
+        },
+        "atr": 219.730135,
+        "adx": 20.38,
+        "fibonacci": {
+          "0.236": 67931.966,
+          "0.382": 67387.167,
+          "0.5": 66946.85,
+          "0.618": 66506.533,
+          "high": 68812.6,
+          "low": 65081.1
+        },
+        "current_price": 66980.2
+      },
+      "multi_timeframe": {
+        "4h": {
+          "rsi": {
+            "value": 44.85,
+            "status": "neutral"
+          },
+          "ema": {
+            "ema_9": 66806.75541,
+            "ema_21": 67527.45042,
+            "ema_55": 70090.339606,
+            "ema_200": 79504.717075
+          },
+          "ema_cross": "none",
+          "macd": {
+            "macd": -852.630134,
+            "signal": -867.423463,
+            "histogram": 14.793329
+          },
+          "bollinger": {
+            "upper": 69475.737537,
+            "middle": 67464.32,
+            "lower": 65452.902463,
+            "width": 5.9629,
+            "position": "within"
+          },
+          "volume": {
+            "current": 46555225.0,
+            "average": 110068819.4,
+            "ratio": 0.42,
+            "trend": "low"
+          },
+          "atr": 1420.862503,
+          "adx": 19.95,
+          "fibonacci": {
+            "0.236": 88928.4692,
+            "0.382": 83371.6654,
+            "0.5": 78880.55,
+            "0.618": 74389.4346,
+            "high": 97910.7,
+            "low": 59850.4
+          },
+          "current_price": 66980.1
+        },
+        "1h": {
+          "rsi": {
+            "value": 54.8,
+            "status": "neutral"
+          },
+          "ema": {
+            "ema_9": 66569.134431,
+            "ema_21": 66551.382068,
+            "ema_55": 67063.725158,
+            "ema_200": 68505.226354
+          },
+          "ema_cross": "golden_cross",
+          "macd": {
+            "macd": -80.531028,
+            "signal": -211.859585,
+            "histogram": 131.328557
+          },
+          "bollinger": {
+            "upper": 67202.149484,
+            "middle": 66217.235,
+            "lower": 65232.320516,
+            "width": 2.9748,
+            "position": "within"
+          },
+          "volume": {
+            "current": 6846892.0,
+            "average": 24218846.5,
+            "ratio": 0.28,
+            "trend": "low"
+          },
+          "atr": 559.229663,
+          "adx": 13.68,
+          "fibonacci": {
+            "0.236": 69322.7012,
+            "0.382": 67512.5494,
+            "0.5": 66049.55,
+            "0.618": 64586.5506,
+            "high": 72248.7,
+            "low": 59850.4
+          },
+          "current_price": 66980.1
+        },
+        "15m": {
+          "rsi": {
+            "value": 66.05,
+            "status": "neutral"
+          },
+          "ema": {
+            "ema_9": 66748.834793,
+            "ema_21": 66566.584945,
+            "ema_55": 66453.786728,
+            "ema_200": 66721.394212
+          },
+          "ema_cross": "none",
+          "macd": {
+            "macd": 159.77457,
+            "signal": 95.418596,
+            "histogram": 64.355974
+          },
+          "bollinger": {
+            "upper": 67054.810034,
+            "middle": 66467.525,
+            "lower": 65880.239966,
+            "width": 1.7671,
+            "position": "within"
+          },
+          "volume": {
+            "current": 1388070.0,
+            "average": 4168305.3,
+            "ratio": 0.33,
+            "trend": "low"
+          },
+          "atr": 219.730135,
+          "adx": 20.38,
+          "fibonacci": {
+            "0.236": 67931.966,
+            "0.382": 67387.167,
+            "0.5": 66946.85,
+            "0.618": 66506.533,
+            "high": 68812.6,
+            "low": 65081.1
+          },
+          "current_price": 66980.1
+        },
+        "5m": {
+          "rsi": {
+            "value": 65.96,
+            "status": "neutral"
+          },
+          "ema": {
+            "ema_9": 66867.571595,
+            "ema_21": 66752.350447,
+            "ema_55": 66558.528005,
+            "ema_200": 66285.048602
+          },
+          "ema_cross": "none",
+          "macd": {
+            "macd": 130.501101,
+            "signal": 131.605858,
+            "histogram": -1.104756
+          },
+          "bollinger": {
+            "upper": 67034.191865,
+            "middle": 66776.8,
+            "lower": 66519.408135,
+            "width": 0.7709,
+            "position": "within"
+          },
+          "volume": {
+            "current": 1388070.0,
+            "average": 1812357.3,
+            "ratio": 0.77,
+            "trend": "normal"
+          },
+          "atr": 127.416636,
+          "adx": 42.69,
+          "fibonacci": {
+            "0.236": 66578.9984,
+            "0.382": 66292.7508,
+            "0.5": 66061.4,
+            "0.618": 65830.0492,
+            "high": 67041.7,
+            "low": 65081.1
+          },
+          "current_price": 66980.1
+        }
+      },
+      "ai_analysis": {
+        "judgment": "neutral",
+        "confidence": "medium",
+        "summary": "短期はEMA上で上向き、1時間足もGCとMACD改善で反発基調。ただ出来高は弱く、上値はBB上限67050-67200と1hEMA55で重い。明確なブレイク確認までは様子見優勢。",
+        "key_levels": {
+          "support": [
+            66946.85,
+            66721.39,
+            66506.53,
+            66453.79,
+            66217.24,
+            65880.23
+          ],
+          "resistance": [
+            67054.83,
+            67063.73,
+            67202.15,
+            67387.17,
+            67931.97,
+            68505.23
+          ]
+        },
+        "signals": [
+          {
+            "indicator": "EMA(15m)",
+            "signal": "価格がEMA9/21/55/200全ての上で推移し短期優位",
+            "weight": "moderate"
+          },
+          {
+            "indicator": "EMA(1h)クロス",
+            "signal": "EMA9>EMA21のゴールデンクロス発生",
+            "weight": "moderate"
+          },
+          {
+            "indicator": "MACD(1h/15m)",
+            "signal": "ヒストグラム拡大でモメンタム改善",
+            "weight": "moderate"
+          },
+          {
+            "indicator": "MACD(5m)",
+            "signal": "ヒストグラム反転弱化で直近の勢い鈍化",
+            "weight": "weak"
+          },
+          {
+            "indicator": "RSI(15m)",
+            "signal": "66でやや過熱気味、利食い出やすい水準",
+            "weight": "weak"
+          },
+          {
+            "indicator": "ボリンジャー",
+            "signal": "上限(15m:約67055、1h:約67202)付近で上値重い",
+            "weight": "moderate"
+          },
+          {
+            "indicator": "出来高",
+            "signal": "低水準でブレイクの信頼性に欠ける",
+            "weight": "moderate"
+          },
+          {
+            "indicator": "ADX",
+            "signal": "5m強い(>40)が上位足は弱くトレンド不安定",
+            "weight": "weak"
+          }
+        ],
+        "risk_factors": [
+          "出来高不足によるフェイクブレイク/だましのリスク",
+          "直上の抵抗帯(67055-67200/1hEMA55)での反落",
+          "4時間足では依然トレンド弱く戻り売り圧力",
+          "短期RSI過熱気味による押し戻し",
+          "ATR水準からの急変動・ストップ狩り",
+          "ニュース/清算フローによる突発的変動",
+          "本情報はテクニカル分析に基づく参考であり投資助言ではない"
+        ]
+      },
+      "current_price": 66980.1
+    },
+    "main_proposal": {
+      "direction": "long",
+      "entry_price": {
+        "ideal": 67210.0,
+        "range_low": 67200.0,
+        "range_high": 67240.0
+      },
+      "take_profit": {
+        "tp1": 67387.17,
+        "tp2": 67931.97
+      },
+      "stop_loss": {
+        "price": 66946.85,
+        "reason": "Fibo0.5/直近サポート(66946.85)割れ＝ブレイク失敗の否定"
+      },
+      "risk_reward_ratio": 2.74,
+      "confidence": "medium",
+      "scenario_invalidation": "1h終値が67055-67200内へ再侵入し出来高増の売りが出現、さらにEMA9<21へ転化やMACDヒストグラム反転で上昇モメンタム消失した場合は無効。",
+      "reasoning": "短期はEMA群上で上向き、1hもGCとMACD改善。一方出来高は低く抵抗帯(67055-67200)を明確突破時のみ追随。67210超でロング、失敗時は0.5戻しサポ割れで損切り。TPは67387/67932。損失は資金2%以内に限定。本情報は参考で投資助言ではありません。"
+    },
+    "second_opinion": null,
+    "so_executed": false,
+    "gemini_review": null
+  }
+]
