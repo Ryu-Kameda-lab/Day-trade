@@ -278,7 +278,8 @@ class BotService:
 def get_bot_service():
     service = BotService()
     # デフォルトで起動 (初期ON)
-    service.start()
+    # TEMPORARY: Disabled for Streamlit Cloud debugging
+    # service.start()
     return service
 
 
